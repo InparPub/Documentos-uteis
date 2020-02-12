@@ -22,8 +22,8 @@
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"ModalPadraoVale": {
-		"prefix": "Modal Padrao Vale",
+	"ModalPadrao": {
+		"prefix": "Modal Padrao",
 		"body": [
 			"<a href=\"modal-padrao\" class=\"abrirModal botao seta verde\">Abrir Modal</a>\r\n\r\n",
 			"<div class=\"modal\" id=\"modal-padrao\">\r\n\t<div class=\"cabecalho\">\r\n\t\t<h2></h2>\r\n\t</div>\r\n\t<div class=\"body\">\r\n\t\t<p></p>\r\n\t</div>\r\n</div>"
@@ -31,71 +31,166 @@
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"ModalAbertoPadraoVale": {
-		"prefix": "Modal Aberto Padrao Vale",
+	"ModalAbertoPadrao": {
+		"prefix": "Modal Aberto Padrao",
 		"body": [
 			"<div class=\"modal aberto\" id=\"modal-padrao\">\r\n\t<div class=\"cabecalho\">\r\n\t\t<h2></h2>\r\n\t</div>\r\n\t<div class=\"body\">\r\n\t\t<p></p>\r\n\t</div>\r\n</div>"
 		],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkSimplesVerdeVale": {
-		"prefix": "Link Simples Verde Vale",
+	//LINK SIMPLES
+	"LinkSimplesVerde": {
+		"prefix": "Link Simples Verde",
 		"body": ["<a href=\"\" class=\"link verde\">link verde</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkSimplesAmareloVale": {
-		"prefix": "Link Simples Amarelo Vale",
+	"LinkSimplesAmarelo": {
+		"prefix": "Link Simples Amarelo",
 		"body": ["<a href=\"\" class=\"link amarelo\">link amarelo</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkSimplesAzulVale": {
-		"prefix": "Link Simples Azul Vale",
+	"LinkSimplesAzul": {
+		"prefix": "Link Simples Azul",
 		"body": ["<a href=\"\" class=\"link azul\">link azul</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkSimplesLaranjaVale": {
-		"prefix": "Link Simples Laranja Vale",
+	"LinkSimplesLaranja": {
+		"prefix": "Link Simples Laranja",
 		"body": ["<a href=\"\" class=\"link laranja\">link laranja</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkSimplesVermelhoVale": {
-		"prefix": "Link Simples Vermelho Vale",
+	"LinkSimplesVermelho": {
+		"prefix": "Link Simples Vermelho",
 		"body": ["<a href=\"\" class=\"link vermelho\">link vermelho</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkMaisVerdeVale": {
-		"prefix": "Link Simples Verde Vale",
+	//LINK MAIS
+	"LinkMaisVerde": {
+		"prefix": "Link Mais Verde",
 		"body": ["<p><a href=\"\" class=\"link-mais verde\">Link mais verde</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkMaisVermelhoVale": {
-		"prefix": "Link Simples Vermelho Vale",
+	"LinkMaisVermelho": {
+		"prefix": "Link Mais Vermelho",
 		"body": ["<p><a href=\"\" class=\"link-mais vermelho\">Link mais vermelho</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkMaisAzulVale": {
-		"prefix": "Link Simples Azul Vale",
+	"LinkMaisAzul": {
+		"prefix": "Link Mais Azul",
 		"body": ["<p><a href=\"\" class=\"link-mais azul\">Link mais azul</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkMaisLaranjaVale": {
-		"prefix": "Link Simples Laranja Vale",
+	"LinkMaisLaranja": {
+		"prefix": "Link Mais Laranja",
 		"body": ["<p><a href=\"\" class=\"link-mais laranja\">Link mais laranja</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
-	"LinkMaisAmareloVale": {
-		"prefix": "Link Simples Amarelo Vale",
+	"LinkMaisAmarelo": {
+		"prefix": "Link Mais Amarelo",
 		"body": ["<p><a href=\"\" class=\"link-mais amarelo\">Link mais amarelo</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	//BOTÃO DOWNLOAD
+	"BotaoDownloadVerde": {
+		"prefix": "Botao Download Verde",
+		"body": ["<p><a href=\"\" class=\"botao download verde\">botao download verde</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoDownloadVermelho": {
+		"prefix": "Botao Download Vermelho",
+		"body": ["<p><a href=\"\" class=\"botao download vermelho\">botao download vermelho</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoDownloadAzul": {
+		"prefix": "Botao Download Azul",
+		"body": ["<p><a href=\"\" class=\"botao download azul\">botao download azul</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoDownloadLaranja": {
+		"prefix": "Botao Download Laranja",
+		"body": ["<p><a href=\"\" class=\"botao download laranja\">botao download laranja</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoDownloadAmarelo": {
+		"prefix": "Botao Download Amarelo",
+		"body": ["<p><a href=\"\" class=\"botao download amarelo\">botao download amarelo</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	// BOTÃO SAIBA MAIS
+	"BotaoSaibaMaisVerde": {
+		"prefix": "Botao Saiba Mais Verde",
+		"body": ["<p><a href=\"\" class=\"botao saibamais verde\">botao saibamais verde</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSaibaMaisVermelho": {
+		"prefix": "Botao Saiba Mais Vermelho",
+		"body": ["<p><a href=\"\" class=\"botao saibamais vermelho\">botao saibamais vermelho</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSaibaMaisAzul": {
+		"prefix": "Botao Saiba Mais Azul",
+		"body": ["<p><a href=\"\" class=\"botao saibamais azul\">botao saibamais azul</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSaibaMaisLaranja": {
+		"prefix": "Botao Saiba Mais Laranja",
+		"body": ["<p><a href=\"\" class=\"botao saibamais laranja\">botao saibamais laranja</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSaibaMaisAmarelo": {
+		"prefix": "Botao Saiba Mais Amarelo",
+		"body": ["<p><a href=\"\" class=\"botao saibamais amarelo\">botao saibamais amarelo</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	//BOTÃO SETA
+	"BotaoSetaVerde": {
+		"prefix": "Botao Seta Verde",
+		"body": ["<p><a href=\"\" class=\"botao seta verde\">botao seta verde</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSetaVermelho": {
+		"prefix": "Botao Seta Vermelho",
+		"body": ["<p><a href=\"\" class=\"botao seta vermelho\">botao seta vermelho</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSetaAzul": {
+		"prefix": "Botao Seta Azul",
+		"body": ["<p><a href=\"\" class=\"botao seta azul\">botao seta azul</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSetaLaranja": {
+		"prefix": "Botao Seta Laranja",
+		"body": ["<p><a href=\"\" class=\"botao seta laranja\">botao seta laranja</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"BotaoSetaAmarelo": {
+		"prefix": "Botao Seta Amarelo",
+		"body": ["<p><a href=\"\" class=\"botao seta amarelo\">botao seta amarelo</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	}
 
