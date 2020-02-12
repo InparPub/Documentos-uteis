@@ -1,0 +1,102 @@
+{
+
+	// CTRL + SHIFT + P
+	// Configure user snippets
+	// New global snippets file
+	// Nome da pasta onde ficará salvo o snippet
+	// Configure de acordo com o exemplo abaixo
+
+	// EXEMPLO:
+	// "Objeto JSON": {
+	// 	"prefix": "NOME DO SNIPPET",
+	//	"scope": "Javascript",
+	// 	"body": [
+	// 		"console.log('Olá, eu sou um snippet')",
+	// 	],
+	// 	"description": "DESCRIÇÃO DO SNIPPET"
+	// },
+	
+	"ModalAvisoIE": {
+		"prefix": "Modal Aviso IE",
+		"body": ["<div id=\"ieBrowser\"></div>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"ModalPadraoVale": {
+		"prefix": "Modal Padrao Vale",
+		"body": [
+			"<a href=\"modal-padrao\" class=\"abrirModal botao seta verde\">Abrir Modal</a>\r\n\r\n",
+			"<div class=\"modal\" id=\"modal-padrao\">\r\n\t<div class=\"cabecalho\">\r\n\t\t<h2></h2>\r\n\t</div>\r\n\t<div class=\"body\">\r\n\t\t<p></p>\r\n\t</div>\r\n</div>"
+		],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"ModalAbertoPadraoVale": {
+		"prefix": "Modal Aberto Padrao Vale",
+		"body": [
+			"<div class=\"modal aberto\" id=\"modal-padrao\">\r\n\t<div class=\"cabecalho\">\r\n\t\t<h2></h2>\r\n\t</div>\r\n\t<div class=\"body\">\r\n\t\t<p></p>\r\n\t</div>\r\n</div>"
+		],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkSimplesVerdeVale": {
+		"prefix": "Link Simples Verde Vale",
+		"body": ["<a href=\"\" class=\"link verde\">link verde</a>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkSimplesAmareloVale": {
+		"prefix": "Link Simples Amarelo Vale",
+		"body": ["<a href=\"\" class=\"link amarelo\">link amarelo</a>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkSimplesAzulVale": {
+		"prefix": "Link Simples Azul Vale",
+		"body": ["<a href=\"\" class=\"link azul\">link azul</a>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkSimplesLaranjaVale": {
+		"prefix": "Link Simples Laranja Vale",
+		"body": ["<a href=\"\" class=\"link laranja\">link laranja</a>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkSimplesVermelhoVale": {
+		"prefix": "Link Simples Vermelho Vale",
+		"body": ["<a href=\"\" class=\"link vermelho\">link vermelho</a>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkMaisVerdeVale": {
+		"prefix": "Link Simples Verde Vale",
+		"body": ["<p><a href=\"\" class=\"link-mais verde\">Link mais verde</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkMaisVermelhoVale": {
+		"prefix": "Link Simples Vermelho Vale",
+		"body": ["<p><a href=\"\" class=\"link-mais vermelho\">Link mais vermelho</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkMaisAzulVale": {
+		"prefix": "Link Simples Azul Vale",
+		"body": ["<p><a href=\"\" class=\"link-mais azul\">Link mais azul</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkMaisLaranjaVale": {
+		"prefix": "Link Simples Laranja Vale",
+		"body": ["<p><a href=\"\" class=\"link-mais laranja\">Link mais laranja</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	},
+
+	"LinkMaisAmareloVale": {
+		"prefix": "Link Simples Amarelo Vale",
+		"body": ["<p><a href=\"\" class=\"link-mais amarelo\">Link mais amarelo</a></p>"],
+		"description": "Modelos CSS Vale.com"
+	}
+
+}
