@@ -16,6 +16,52 @@
 	// 	"description": "DESCRIÇÃO DO SNIPPET"
 	// },
 	
+	"IntranetValeSnippet": {
+		"prefix": "Intranet Vale",
+		"body": [
+			"<link href=\"/SiteCollectionDocuments/new-layouts/css/main.css\" rel=\"stylesheet\" type=\"text/css\"/>",
+			"<style type=\"text/css\">\n\n\t@media (max-width: 600px) {\n\n\t}\n\n</style>",
+			"\n<script src=\"/SiteCollectionDocuments/new-layouts/js/main.js\" type=\"text/javascript\"></script>",
+			"\n<div id=\"new-layouts\">\n\t",
+			"\n\n</div>",
+		],
+		"description": "Intranet Vale(Recortes e Notícias)"
+	},
+
+	"NotíciaVale.comSnippet": {
+		"prefix": "Notícia Vale.com",
+		"body": [
+			"<div id=\"vale-responsivo\">",
+			"\n\t<div class=\"row\">",
+			"\n\t\t<div class=\"col-lg-12\">",
+			"\n\t\t</div>",
+			"\n\t</div>",
+			"\n</div>",
+		],
+		"description": "Notícia VALE.COM"
+	},
+
+	"RecorteVale.com": {
+		"prefix": "Recorte Vale.com",
+		"body": [
+			"<!-- ***LEMBRETE: Altere o tipo de codificação de caracteres clicando em 'UTF-8' na barra inferior. Altere para 'UTF-8 with BOM'*** -->",
+			"<!-- ***LEMBRETE: Altere o tipo de arquivo clicando em 'Plain Text' na barra inferior. Digite 'HTML' e selecione*** -->",
+			"\n<link rel=\"stylesheet\" type=\"text/css\" href=\"<!-- CSS da sua página (Link Relativo) -->\">",
+			"\n<div id=\"vale-responsivo\">",
+			"\n</div>",
+		],
+		"description": "Recorte VALE.COM"
+	},
+
+	"Vale@Informar": {
+		"prefix": "Notícia Vale@Informar",
+		"body": [
+			"<div id=\"new-layouts\">",
+		  	"\n</div>",
+		],
+		"description": "Notícia Vale@Informar"
+	},
+
 	"ModalAvisoIE": {
 		"prefix": "Modal Aviso IE",
 		"body": ["<div id=\"ieBrowser\"></div>"],
@@ -39,7 +85,6 @@
 		"description": "Modelos CSS Vale.com"
 	},
 
-	//LINK SIMPLES
 	"LinkSimplesVerde": {
 		"prefix": "Link Simples Verde",
 		"body": ["<a href=\"\" class=\"link verde\">link verde</a>"],
@@ -70,7 +115,6 @@
 		"description": "Modelos CSS Vale.com"
 	},
 
-	//LINK MAIS
 	"LinkMaisVerde": {
 		"prefix": "Link Mais Verde",
 		"body": ["<p><a href=\"\" class=\"link-mais verde\">Link mais verde</a></p>"],
@@ -101,7 +145,6 @@
 		"description": "Modelos CSS Vale.com"
 	},
 
-	//BOTÃO DOWNLOAD
 	"BotaoDownloadVerde": {
 		"prefix": "Botao Download Verde",
 		"body": ["<p><a href=\"\" class=\"botao download verde\">botao download verde</a></p>"],
@@ -163,7 +206,6 @@
 		"description": "Modelos CSS Vale.com"
 	},
 
-	//BOTÃO SETA
 	"BotaoSetaVerde": {
 		"prefix": "Botao Seta Verde",
 		"body": ["<p><a href=\"\" class=\"botao seta verde\">botao seta verde</a></p>"],
@@ -192,6 +234,366 @@
 		"prefix": "Botao Seta Amarelo",
 		"body": ["<p><a href=\"\" class=\"botao seta amarelo\">botao seta amarelo</a></p>"],
 		"description": "Modelos CSS Vale.com"
+	},
+
+	// ------------------------------------------------------------------------------------------------------------------------------------------
+
+	// *** CSS INTRANET ***
+
+	// TOOLTIP
+	"Tooltip": {
+		"prefix": "Intranet - Tooltip",
+		"body": [
+			"<div class=\"tooltip-trigger\">",
+			"\n\t<div class=\"tooltip-content\">",
+			"\n\t</div>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// IMAGENS COM LEGENDA
+	"ImagemLegenda": {
+		"prefix": "Intranet - Imagem com legenda",
+		"body": [
+			"<!-- Nomeie a div(.boxStyle) com a cor desejada (.verde / .verde-claro / .laranja / .azul / .vermelho) -->",
+			"<div class=\"boxStyle verde\">",
+			"\t<img src=\"\" alt=\"\" width=\"100%\">",
+			"\t<div class=\"text\">",
+			"\n\t</div>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// CLASSES ÚTEIS
+	"DIVClearBoth": {
+		"prefix": "Intranet - Clear both",
+		"body": [
+			"<div class=\"ms-clear\">",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"Metade": {
+		"prefix": "Intranet - Classe Metade",
+		"body": [
+			"<div class=\"metade\">",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"ClasseDesktop": {
+		"prefix": "Intranet - Desktop",
+		"body": [
+			"<div class=\"only_desktop\">",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"ClasseMobile": {
+		"prefix": "Intranet - Mobile",
+		"body": [
+			"<div class=\"only_mobile\">",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// MODAL LIGHTBOX
+	"Modal Aberto": {
+		"prefix": "Intranet - Modal aberto",
+		"body": [
+			"<div class=\"modal aberto\" id=\"IdModal\">",
+			"\n\t<div class=\"cabecalho\">",
+			"\n\t\t<h1>Título do Modal</h1>",
+			"\n\t</div>",
+			"\n\t<div class=\"corpo\">",
+			"\n\t\t<p>Conteúdo do modal</p>",
+			"\n\t</div>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"Modal com botão": {
+		"prefix": "Intranet - Modal botão",
+		"body": [
+			"<div class=\"modal\" id=\"IdModal\">",
+			"\n\t<div class=\"cabecalho\">",
+			"\n\t\t<h1>Título do Modal</h1>",
+			"\n\t</div>",
+			"\n\t<div class=\"corpo\">",
+			"\n\t\t<p>Conteúdo do modal</p>",
+			"\n\t</div>",
+			"\n</div>",
+			"\n<a class=\"abrirModal\" href=\"#IdModal\"></a>"
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// CARROSSEL
+	"Carrossel": {
+		"prefix": "Intranet - Carrossel",
+		"body": [
+			"<!-- Para adcionar os pontinhos (.carrossel-intra .dots) -->",
+			"<!-- Para rolagem infinita (.infinite) -->",
+			"<div class=\"carrossel-intra\">",
+			"\n\t<div></div>",
+			"\n\t<div></div>",
+			"\n\t<div></div>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"CarrosselImagem": {
+		"prefix": "Intranet - Carrossel com imagens",
+		"body": [
+			"<!-- Para adcionar os pontinhos (.carrossel-intra .dots) -->",
+			"<!-- Para rolagem infinita (.infinite) -->",
+			"<div class=\"carrossel-intra\">",
+			"\t<div><img src=\"\" alt=\"\"></div>",
+			"\t<div><img src=\"\" alt=\"\"></div>",
+			"\t<div><img src=\"\" alt=\"\"></div>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// LISTA ÍCONE CHECK
+	"ListaCheck": {
+		"prefix": "Intranet - Lista ícone check",
+		"body": [
+			"<!-- Nomeie a div(.lstType01) com a cor desejada (.verde / .verde-claro / .laranja / .azul / .vermelho) -->",
+			"<ul class=\"lstType01 verde\">",
+			"\n\t<li></li>",
+			"\n\t<li></li>",
+			"\n\t<li></li>",
+			"\n</ul>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	// LISTA BULLET
+	"ListaBullet": {
+		"prefix": "Intranet - Lista ícone bullet",
+		"body": [
+			"<!-- Nomeie a div(.lstType_bullet) com a cor desejada (.verde / .laranja / .azul / .vermelho / .amarelo) -->",
+			"<ul class=\"lstType_bullet verde\">",
+			"\n\t<li></li>",
+			"\n\t<li></li>",
+			"\n\t<li></li>",
+			"\n</ul>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// EXPANSÍVEL
+	"Expansível": {
+		"prefix": "Intranet - Expansível bullet",
+		"body": [
+			"<!-- Nomeie a div(.expansiveTp01) com a cor desejada (.verde / .laranja / .azul / .vermelho) -->",
+			"<div class=\"expansiveTp01 verde\">",
+			"\n\t<dl></dl>",
+			"\n\t\t<dt>Título do Expansível</dt>",
+			"\n\t<dd>Conteúdo do Expansível</dd>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// BOXES COM ÍCONES
+	"BoxVerde": {
+		"prefix": "Intranet - Box Verde",
+		"body": [
+			"<div class=\"boxDestaque01 destaqueStl05 verde\">",
+			"\n\t<h3>Título do Boxe</h3>",
+			"\n\t<p>Conteúdo do Boxe</p>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BoxVermelho": {
+		"prefix": "Intranet - Box Vermelho",
+		"body": [
+			"<div class=\"boxDestaque01 destaqueStl01 vermelho\">",
+			"\n\t<h3>Título do Boxe</h3>",
+			"\n\t<p>Conteúdo do Boxe</p>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BoxLaranja": {
+		"prefix": "Intranet - Box Laranja",
+		"body": [
+			"<div class=\"boxDestaque01 destaqueStl02 laranja\">",
+			"\n\t<h3>Título do Boxe</h3>",
+			"\n\t<p>Conteúdo do Boxe</p>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BoxAzul": {
+		"prefix": "Intranet - Box Azul",
+		"body": [
+			"<div class=\"boxDestaque01 destaqueStl03 azul\">",
+			"\n\t<h3>Título do Boxe</h3>",
+			"\n\t<p>Conteúdo do Boxe</p>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BoxVerdeClaro": {
+		"prefix": "Intranet - Box Verde Claro",
+		"body": [
+			"<div class=\"boxDestaque01 destaqueStl04 verde-claro\">",
+			"\n\t<h3>Título do Boxe</h3>",
+			"\n\t<p>Conteúdo do Boxe</p>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BoxVerdeComIconeCheck": {
+		"prefix": "Intranet - Box Verde Check",
+		"body": [
+			"<div class=\"boxDestaque01 destaqueStl04 verde\">",
+			"\n\t<h3>Título do Boxe</h3>",
+			"\n\t<p>Conteúdo do Boxe</p>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// LINKS
+	"LinkSimples": {
+		"prefix": "Intranet - Link Simples",
+		"body": [
+			"<a class=\"linkStl01\" href=\"/pt/Paginas/Manuais/css.aspx\"></a>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"LinkBox": {
+		"prefix": "Intranet - Link Box",
+		"body": [
+			"<!-- Os links dentro de um box devem estar dentro da div(.boxDestaque01) -->",
+			"<a class=\"linkStl01\" href=\"/pt/Paginas/Manuais/css.aspx\"></a>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// ABAS
+	"Abas": {
+		"prefix": "Intranet - Abas",
+		"body": [
+			"<!-- Nomeie a div(.abasTp01) com a cor desejada (.verde / .laranja / .azul / .vermelho) -->",
+			"<div class=\"abasTp01 verde\">",
+			"\n\t<div class=\"abas a3\">",
+			"\n\t\t<div class=\"btnAba active\"></div>",
+			"\n\t\t<div class=\"btnAba\"></div>",
+			"\n\t\t<div class=\"btnAba\"></div>",
+			"\n\t</div>",
+			"\n\t<div class=\"contentAbas\">",
+			"\n\t\t<div class=\"content\"></div>",
+			"\n\t\t<div class=\"content\"></div>",
+			"\n\t\t<div class=\"content\"></div>",
+			"\n\t</div>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// DEPOIMENTO
+	"Depoimentos": {
+		"prefix": "Intranet - Depoimentos",
+		"body": [
+			"<div class=\"depoimento\">",
+			"\n\t<span class=\"verde\">“</span>",
+			"\n\t<h1 class=\"ttltp01\">Texto Depoimento</h1>",
+			"\n\t<p>Nome da pessoa</p>",
+			"\n</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// LISTA NUMERADA
+	"ListaNumerada": {
+		"prefix": "Intranet - Lista numerada",
+		"body": [
+			"<p>",
+			"\n\t<span class=\"numeroDestaque bgVerde\">1</span>",
+			"\n\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae felis nisl. Praesent rutrum enim at consequat commodo.",
+			"\n</p>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// CARTÃO
+	"Cartao": {
+		"prefix": "Intranet - Cartao",
+		"body": [
+			"<!-- Nomeie a div(.cartao) com a cor desejada (.verde / .laranja / .azul / .vermelho / .amarelo / .verde-claro / .cinza) -->",
+			"<div class=\"cartao verde\">",
+			"\n\t<h3>Título do cartão</h3>",
+			"\n\t<div class=\"texto\">",
+			"\n\t\t<div class\"item\">",
+			"\n\t\t\t<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae felis nisl. Praesent rutrum enim at consequat commodo. Nulla rhoncus purus id est fermentum ultricies.</p>",
+			"\n\t\t</div>",
+			"\n\t</div>",
+			"</div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// TABELA
+	"Tabela": {
+		"prefix": "Intranet - Tabela",
+		"body": [
+			"<div class=\"containerTable\"> \r\n               <table class=\"table01 verde\"> \r\n                  <thead> \r\n                     <tr> \r\n                        <th colspan=\"4\">T\u00EDtulo da tabela</th> \r\n                     </tr> \r\n                  </thead> \r\n                  <tbody> \r\n                     <tr> \r\n                        <th>Com par\u00E1grafo</th> \r\n                        <th>S\u00F3 texto</th> \r\n                     </tr> \r\n                     <tr> \r\n                        <td> \r\n                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vitae felis nisl. Praesent rutrum enim at consequat commodo.</p> \r\n                        </td> \r\n                        <td> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td> \r\n                     </tr> \r\n                  </tbody> \r\n               </table> \r\n            </div>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+
+	// BOTÕES
+	"BotaoIconePrancheta": {
+		"prefix": "Intranet - Botão ícone prancheta",
+		"body": [
+			"<!-- Nomeie a div(.cartao) com a cor desejada (.bgVerde / .bgAzul / .bgAzulEscuro / .bgCinza / .bgAmarelo / .bgLaranja / .bgVerdeClaro) -->",
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnDownload bgVerde\">Clique aqui</a>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BotaoSemIcone": {
+		"prefix": "Intranet - Botão sem ícone",
+		"body": [
+			"<!-- Nomeie a div(.cartao) com a cor desejada (.bgVerde / .bgAzul / .bgAzulEscuro / .bgCinza / .bgAmarelo / .bgLaranja / .bgVerdeClaro) -->",
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnComum bgVerde\">Clique aqui</a>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BotaoDownload": {
+		"prefix": "Intranet - Botão Download",
+		"body": [
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnDownload\">",
+			"\n\t<span>Clique aqui para baixar</span>",
+			"</a>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BotaoMais": {
+		"prefix": "Intranet - Botão Mais",
+		"body": [
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btn-mais\">",
+			"\n\t<span>Clique aqui</span>",
+			"</a>",
+		],
+		"description": "Modelos CSS Intranet Vale"
+	},
+	"BotaoMaisBranco": {
+		"prefix": "Intranet - Botão Mais Branco",
+		"body": [
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btn-mais-branco\">",
+			"\n\t<span>Clique aqui</span>",
+			"</a>",
+		],
+		"description": "Modelos CSS Intranet Vale"
 	}
 
 }
