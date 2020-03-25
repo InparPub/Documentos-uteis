@@ -556,7 +556,7 @@
 		"prefix": "Intranet - Botão ícone prancheta",
 		"body": [
 			"<!-- Nomeie a div(.cartao) com a cor desejada (.bgVerde / .bgAzul / .bgAzulEscuro / .bgCinza / .bgAmarelo / .bgLaranja / .bgVerdeClaro) -->",
-			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnDownload bgVerde\">Clique aqui</a>",
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnDownload bgVerde linkStl01\">Clique aqui</a>",
 		],
 		"description": "Modelos CSS Intranet Vale"
 	},
@@ -564,14 +564,14 @@
 		"prefix": "Intranet - Botão sem ícone",
 		"body": [
 			"<!-- Nomeie a div(.cartao) com a cor desejada (.bgVerde / .bgAzul / .bgAzulEscuro / .bgCinza / .bgAmarelo / .bgLaranja / .bgVerdeClaro) -->",
-			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnComum bgVerde\">Clique aqui</a>",
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnComum bgVerde linkStl01\">Clique aqui</a>",
 		],
 		"description": "Modelos CSS Intranet Vale"
 	},
 	"BotaoDownload": {
 		"prefix": "Intranet - Botão Download",
 		"body": [
-			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnDownload\">",
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btnDownload linkStl01\">",
 			"\n\t<span>Clique aqui para baixar</span>",
 			"</a>",
 		],
@@ -580,7 +580,7 @@
 	"BotaoMais": {
 		"prefix": "Intranet - Botão Mais",
 		"body": [
-			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btn-mais\">",
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btn-mais linkStl01\">",
 			"\n\t<span>Clique aqui</span>",
 			"</a>",
 		],
@@ -589,7 +589,7 @@
 	"BotaoMaisBranco": {
 		"prefix": "Intranet - Botão Mais Branco",
 		"body": [
-			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btn-mais-branco\">",
+			"<a href=\"/pt/Paginas/Manuais/css.aspx\" class=\"btn-mais-branco linkStl01\">",
 			"\n\t<span>Clique aqui</span>",
 			"</a>",
 		],
