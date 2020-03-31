@@ -62,7 +62,7 @@
 		"description": "Notícia Vale@Informar"
 	},
 
-	"ModalAvisoIE": {
+		"ModalAvisoIE": {
 		"prefix": "Modal Aviso IE",
 		"body": ["<div id=\"ieBrowser\"></div>"],
 		"description": "Modelos CSS Vale.com"
@@ -85,157 +85,183 @@
 		"description": "Modelos CSS Vale.com"
 	},
 
+	//LINK SIMPLES
 	"LinkSimplesVerde": {
 		"prefix": "Link Simples Verde",
-		"body": ["<a href=\"\" class=\"link verde\">link verde</a>"],
+		"body": ["<a href=\"\" class=\"link verde replicacao-link-fixo \" data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">link verde</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkSimplesAmarelo": {
 		"prefix": "Link Simples Amarelo",
-		"body": ["<a href=\"\" class=\"link amarelo\">link amarelo</a>"],
+		"body": ["<a href=\"\" class=\"link amarelo replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">link amarelo</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkSimplesAzul": {
 		"prefix": "Link Simples Azul",
-		"body": ["<a href=\"\" class=\"link azul\">link azul</a>"],
+		"body": ["<a href=\"\" class=\"link azul replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">link azul</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkSimplesLaranja": {
 		"prefix": "Link Simples Laranja",
-		"body": ["<a href=\"\" class=\"link laranja\">link laranja</a>"],
+		"body": ["<a href=\"\" class=\"link laranja replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">link laranja</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkSimplesVermelho": {
 		"prefix": "Link Simples Vermelho",
-		"body": ["<a href=\"\" class=\"link vermelho\">link vermelho</a>"],
+		"body": ["<a href=\"\" class=\"link vermelho replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">link vermelho</a>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
+	//LINK MAIS
 	"LinkMaisVerde": {
 		"prefix": "Link Mais Verde",
-		"body": ["<p><a href=\"\" class=\"link-mais verde\">Link mais verde</a></p>"],
+		"body": ["<p><a href=\"\" class=\"link-mais verde replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">Link mais verde</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkMaisVermelho": {
 		"prefix": "Link Mais Vermelho",
-		"body": ["<p><a href=\"\" class=\"link-mais vermelho\">Link mais vermelho</a></p>"],
+		"body": ["<p><a href=\"\" class=\"link-mais vermelho replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">Link mais vermelho</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkMaisAzul": {
 		"prefix": "Link Mais Azul",
-		"body": ["<p><a href=\"\" class=\"link-mais azul\">Link mais azul</a></p>"],
+		"body": ["<p><a href=\"\" class=\"link-mais azul replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">Link mais azul</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkMaisLaranja": {
 		"prefix": "Link Mais Laranja",
-		"body": ["<p><a href=\"\" class=\"link-mais laranja\">Link mais laranja</a></p>"],
+		"body": ["<p><a href=\"\" class=\"link-mais laranja replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">Link mais laranja</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"LinkMaisAmarelo": {
 		"prefix": "Link Mais Amarelo",
-		"body": ["<p><a href=\"\" class=\"link-mais amarelo\">Link mais amarelo</a></p>"],
+		"body": ["<p><a href=\"\" class=\"link-mais amarelo replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">Link mais amarelo</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
+	//BOTÃO DOWNLOAD
 	"BotaoDownloadVerde": {
 		"prefix": "Botao Download Verde",
-		"body": ["<p><a href=\"\" class=\"botao download verde\">botao download verde</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao download verde replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao download verde</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoDownloadVermelho": {
 		"prefix": "Botao Download Vermelho",
-		"body": ["<p><a href=\"\" class=\"botao download vermelho\">botao download vermelho</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao download vermelho replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao download vermelho</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoDownloadAzul": {
 		"prefix": "Botao Download Azul",
-		"body": ["<p><a href=\"\" class=\"botao download azul\">botao download azul</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao download azul replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao download azul</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoDownloadLaranja": {
 		"prefix": "Botao Download Laranja",
-		"body": ["<p><a href=\"\" class=\"botao download laranja\">botao download laranja</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao download laranja replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao download laranja</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoDownloadAmarelo": {
 		"prefix": "Botao Download Amarelo",
-		"body": ["<p><a href=\"\" class=\"botao download amarelo\">botao download amarelo</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao download amarelo replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao download amarelo</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	// BOTÃO SAIBA MAIS
 	"BotaoSaibaMaisVerde": {
 		"prefix": "Botao Saiba Mais Verde",
-		"body": ["<p><a href=\"\" class=\"botao saibamais verde\">botao saibamais verde</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao saibamais verde replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao saibamais verde</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSaibaMaisVermelho": {
 		"prefix": "Botao Saiba Mais Vermelho",
-		"body": ["<p><a href=\"\" class=\"botao saibamais vermelho\">botao saibamais vermelho</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao saibamais vermelho replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao saibamais vermelho</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSaibaMaisAzul": {
 		"prefix": "Botao Saiba Mais Azul",
-		"body": ["<p><a href=\"\" class=\"botao saibamais azul\">botao saibamais azul</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao saibamais azul replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao saibamais azul</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSaibaMaisLaranja": {
 		"prefix": "Botao Saiba Mais Laranja",
-		"body": ["<p><a href=\"\" class=\"botao saibamais laranja\">botao saibamais laranja</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao saibamais laranja replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao saibamais laranja</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSaibaMaisAmarelo": {
 		"prefix": "Botao Saiba Mais Amarelo",
-		"body": ["<p><a href=\"\" class=\"botao saibamais amarelo\">botao saibamais amarelo</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao saibamais amarelo replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao saibamais amarelo</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
+	//BOTÃO SETA
 	"BotaoSetaVerde": {
 		"prefix": "Botao Seta Verde",
-		"body": ["<p><a href=\"\" class=\"botao seta verde\">botao seta verde</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao seta verde replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao seta verde</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSetaVermelho": {
 		"prefix": "Botao Seta Vermelho",
-		"body": ["<p><a href=\"\" class=\"botao seta vermelho\">botao seta vermelho</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao seta vermelho replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao seta vermelho</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSetaAzul": {
 		"prefix": "Botao Seta Azul",
-		"body": ["<p><a href=\"\" class=\"botao seta azul\">botao seta azul</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao seta azul replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao seta azul</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSetaLaranja": {
 		"prefix": "Botao Seta Laranja",
-		"body": ["<p><a href=\"\" class=\"botao seta laranja\">botao seta laranja</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao seta laranja replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao seta laranja</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
 
 	"BotaoSetaAmarelo": {
 		"prefix": "Botao Seta Amarelo",
-		"body": ["<p><a href=\"\" class=\"botao seta amarelo\">botao seta amarelo</a></p>"],
+		"body": ["<p><a href=\"\" class=\"botao seta amarelo replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\">botao seta amarelo</a></p>"],
 		"description": "Modelos CSS Vale.com"
 	},
+	//imagem sem estilo
 
+	"imagemSimples": {
+		"prefix": "img-vale",
+		"body": ["<img width=\"100%\" src=\"\" class=\"replicacao-link-fixo\"data-origem=\"brasil\">"],
+		"description": "imagens com a classe anti-replicação e largura 100%"
+	},
+	//link sem estilo
+
+	"linkSimples": {
+		"prefix": "a-vale",
+		"body": ["<a target=\"_blank\" href=\"\" class=\" replicacao-link-fixo\"data-origem=\"brasil\" onclick=\"_gaq.push(['_trackEvent','aboutvale_reports_3t18','clique','download_relatorio-financeiro-3t18']);\"></a>"],
+		"description": "link com a classe anti-replicação e e evento onclick para tageamento do GA"
+	},
+	//iframe 
+
+	"iframe": {
+		"prefix": "iframe-vale",
+		"body": ["<iframe width=\"100%\" height=\"315\" id=\"player\" src=\"http://www.youtube.com/embed/eTmr2VunBfE?enablejsapi=1&amp;origin=http%3A%2F%2Fp-vale.valepub.net\" frameborder=\"0\" type=\"text/html\" rel=\"video_gestão-de-barragens\"data-site=\"aboutvale_our-commitments_gestao-barragens_gestão-de-barragens-video\" data-gtm-yt-inspected-7095399_68=\"true\"></iframe>"],
+		"description": "id - identificação do elemento rel - com o nome do vídeo data-site - com o caminho da página"
+	},
+	
+}
 	// ------------------------------------------------------------------------------------------------------------------------------------------
 
 	// *** CSS INTRANET ***
