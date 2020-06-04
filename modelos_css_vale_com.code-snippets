@@ -261,7 +261,7 @@
 		"description": "id - identificação do elemento rel - com o nome do vídeo data-site - com o caminho da página"
 	},
 	
-}
+
 	// ------------------------------------------------------------------------------------------------------------------------------------------
 
 	// *** CSS INTRANET ***
@@ -418,9 +418,10 @@
 		"body": [
 			"<!-- Nomeie a div(.expansiveTp01) com a cor desejada (.verde / .laranja / .azul / .vermelho) -->",
 			"<div class=\"expansiveTp01 verde\">",
-			"\n\t<dl></dl>",
+			"\n\t<dl>",
 			"\n\t\t<dt>Título do Expansível</dt>",
-			"\n\t<dd>Conteúdo do Expansível</dd>",
+      "\n\t\t<dd>Conteúdo do Expansível</dd>",
+      "\n\t</dl>",
 			"\n</div>",
 		],
 		"description": "Modelos CSS Intranet Vale"
